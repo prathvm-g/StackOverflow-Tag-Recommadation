@@ -58,6 +58,11 @@ The top 50 most frequent tags were selected to create a balanced multi-label cla
 
 ---
 
+## Demo application based on the model 
+
+Streamlit-based web application that provides an interactive interface for the Stack Overflow Tag Recommendation System.  
+Users can input a question and receive the top 5 predicted tags based on the trained Linear SVM model.
+
 ## Key Insights
 
 - Multi-label problems require ranking-based evaluation metrics rather than simple classification accuracy.
