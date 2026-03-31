@@ -1,0 +1,19 @@
+<<<<<<< HEAD
+streamlit
+scikit-learn
+pandas
+numpy
+joblib
+torch
+sentence-transformers
+beautifulsoup4
+lxml
+=======
+streamlit==1.35.0
+scikit-learn==1.4.2
+numpy==1.26.4
+pandas==2.2.2
+joblib==1.4.2
+beautifulsoup4==4.12.3
+lxml==5.2.2
+>>>>>>> aab3f20 (Initial commit — SO Tag Recommender app)
