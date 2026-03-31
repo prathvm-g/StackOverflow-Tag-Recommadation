@@ -1,9 +1,0 @@
-streamlit
-scikit-learn
-pandas
-numpy
-joblib
-torch
-sentence-transformers
-beautifulsoup4
-lxml
