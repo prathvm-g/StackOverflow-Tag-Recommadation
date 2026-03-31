@@ -129,9 +129,7 @@ Stackoverflow_filtered.csv
 | Model | Micro F1 | Precision@5 | Hamming Loss |
 |---|---|---|---|
 | TF-IDF + LinearSVC | 0.68 | 0.25 | 0.014 |
-| SBERT + LinearSVC (GPU) | — | — | — |
-
-> SBERT results populate automatically when `4-_Evaluation.ipynb` is run end-to-end.
+| SBERT + LinearSVC (GPU) | 0.74 | 0.26 | 0.013 |
 
 ---
 
@@ -194,4 +192,4 @@ lxml
 - **TF-IDF has a structural advantage** for this task — programming tag names like `python`, `numpy`, and `flask` are literal tokens. Keyword matching is highly effective here; semantic embeddings do not add much when the signal is already in the surface form.
 - **Feature representation impacts performance more than model selection** — both approaches use the same LinearSVC classifier. Any difference in metrics is entirely attributable to TF-IDF vs. SBERT features.
 - **Label competition limits Precision@K** — the denominator is always 5, but many questions have 1–3 true tags. A perfect score is structurally unachievable.
-- **GPU acceleration matters for SBERT** — embedding 60,000 documents on CPU is slow enough to be a bottleneck. On GPU the same operation runs in under a minute.
+- **GPU acceleration matters for SBERT** — embedding 60,000 documents on CPU is slow enough to be a bottleneck. On the GPU, the same operation runs in under a minute.
