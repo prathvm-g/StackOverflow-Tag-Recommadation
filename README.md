@@ -154,7 +154,7 @@ A Streamlit web app provides an interactive interface for the tag recommendation
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
+Application link: https://stackoverflow-tag-recommandation.streamlit.app/
 ---
 
 ## Key Design Decisions
