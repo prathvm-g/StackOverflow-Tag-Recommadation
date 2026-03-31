@@ -16,4 +16,4 @@ pandas==2.2.2
 joblib==1.4.2
 beautifulsoup4==4.12.3
 lxml==5.2.2
->>>>>>> aab3f20 (Initial commit — SO Tag Recommender app)
+>>>>>>> 
